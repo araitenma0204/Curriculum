@@ -1,0 +1,59 @@
+package Curriculum_23_Qestion_lion.logic;
+
+public class lion_logic {
+
+	//フィールドを定義
+	private String animal;
+	private double length;
+	private int speed;
+
+	//コンストラクタを初期化
+
+	public lion_logic() {
+
+		this.animal = "ライオン";
+		this.length = 2.1;
+		this.speed = 80;
+	}
+
+	// --- Getter ---
+	public String getAnimal() {
+		return this.animal;
+	}
+
+	public double getLength() {
+		return this.length;
+	}
+
+	public int getSpeed() {
+		return this.speed;
+	}
+
+	// --- Setter ---
+	public void setAnimal(String animal) {
+		this.animal = animal;
+	}
+
+	public void setLength(double length) {
+		this.length = length;
+	}
+
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+
+	// 表示用メソッド
+	public void showInfo() {
+		System.out.println("動物名：" + this.getAnimal());
+		System.out.println("体長：" + this.getLength() + "m");
+		System.out.println("速度：" + this.getSpeed() + "km/h");
+	}
+}
+
+//
+//下記がコンソールに出力されるように作成してください
+//※thisとsetterとgetterとフィールドを使ってください
+//
+//動物名：ライオン
+//体長：2.1m
+//速度：80km/h
