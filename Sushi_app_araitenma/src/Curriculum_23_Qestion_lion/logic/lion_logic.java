@@ -30,8 +30,13 @@ public class lion_logic {
 	}
 
 	// --- Setter ---
+	//実行用のクラスで変数を変更可能に
 	public void setAnimal(String animal) {
-		this.animal = animal;
+		if (animal != null && !animal.isEmpty()) {
+			this.animal = animal;
+		} else {
+			System.out.println("動物名は null または空文字にできません。");
+		}
 	}
 
 	public void setLength(double length) {
