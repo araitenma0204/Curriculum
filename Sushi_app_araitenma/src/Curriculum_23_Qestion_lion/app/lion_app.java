@@ -11,6 +11,12 @@ public class lion_app {
 		//コンストラクタをインスタンス化
 
 		lion_logic lion = new lion_logic();
+		
+		//セッターを使用し値をセット
+		
+		lion.setAnimal("ライオン");
+		lion.setLength(2.1);
+		lion.setSpeed(80);
 
 		//メソッドを呼び出し
 

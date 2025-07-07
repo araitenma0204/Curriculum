@@ -7,13 +7,10 @@ public class lion_logic {
 	private double length;
 	private int speed;
 
-	//コンストラクタを初期化
+	//空のコンストラクタ
+	//コンストラクタを初期化はセッターを使用して別クラスで
 
 	public lion_logic() {
-
-		this.animal = "ライオン";
-		this.length = 2.1;
-		this.speed = 80;
 	}
 
 	// --- Getter ---
